@@ -20,7 +20,7 @@ import com.example.FirstRestAPI.service.EmpService;
 
 @RestController
 @RequestMapping("Emp")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("*")
 public class EmpController {
 	@Autowired
 	EmpService empService;

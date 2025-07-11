@@ -18,7 +18,7 @@ import com.example.FirstRestAPI.service.DepartmentService;
 
 @RestController
 @RequestMapping("/dept")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("*")
 public class DepartmentController {
 	@Autowired
 	private DepartmentService departmentService;

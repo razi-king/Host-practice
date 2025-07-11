@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.FirstRestAPI.pojo.User;
 
 @RestController
-@RequestMapping("user")
+@RequestMapping("*")
 public class UserController {
 
 	List<User> ul = new ArrayList<>();

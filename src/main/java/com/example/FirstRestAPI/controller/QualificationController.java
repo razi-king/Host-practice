@@ -18,7 +18,7 @@ import com.example.FirstRestAPI.service.QualificationService;
 
 @RestController
 @RequestMapping("/Qualif")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("*")
 public class QualificationController {
 	@Autowired
 	private QualificationService qualificationService;
